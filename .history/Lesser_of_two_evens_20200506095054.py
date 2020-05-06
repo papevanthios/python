@@ -6,7 +6,3 @@ def lote(a,b):
         
 lote(2,5)
 lote(2,4)
-
-
-#  min(a, b) returns the minimum of the two 
-#  max(a, b) returns the maximum of the two
