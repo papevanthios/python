@@ -40,7 +40,7 @@ class Circle:
         return self.radius * self.pi * 2
 
 
-c = Circle(30)
+c = Circle(2)
 
 print('Radius is: ',c.radius)
 print('Area is: ',c.area)
