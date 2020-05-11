@@ -16,11 +16,11 @@ class Dog():
     def bark(self):
         print('Woof! My name is {}' .format(self.name))
 
-my_dog = Dog(breed = 'Lab', name = 'Sammy', spots  = False)
-print(my_dog.breed)
-print(my_dog.name) 
-print(my_dog.spots)
-my_dog.bark()
+# my_dog = Dog(breed = 'Lab', name = 'Sammy', spots  = False)
+# print(my_dog.breed)
+# print(my_dog.name) 
+# print(my_dog.spots)
+# my_dog.bark()
 
 class Circle:
     pi = 3.14
@@ -42,6 +42,6 @@ class Circle:
 
 c = Circle(30)
 
-print('Radius is: ',c.radius)
-print('Area is: ',c.area)
-print('Circumference is: ',c.getCircumference())
+# print('Radius is: ',c.radius)
+# print('Area is: ',c.area)
+# print('Circumference is: ',c.getCircumference())
