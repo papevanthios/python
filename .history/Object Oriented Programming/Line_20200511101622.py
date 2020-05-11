@@ -9,7 +9,9 @@ class Line:
         x1,y1 = self.coor1
         x2,y2 = self.coor2
         print(((x2-x1)**2 + (y2-y1)**2)**0.5)
-
+    
+    def slope(self):
+        pass
 
 coordinate1 = (3,2)
 coordinate2 = (8,10)

@@ -1,3 +1,12 @@
+import os
+os.system('C:/Users/EVANTHIOS PAPADOPOUL/Python3/Header.py')
+
+
+from os import system, name 
+def clear(): 
+    if name == 'nt': 
+        _ = system('cls') 
+clear() 
 import math 
 class Line:
     
@@ -9,10 +18,14 @@ class Line:
         x1,y1 = self.coor1
         x2,y2 = self.coor2
         print(((x2-x1)**2 + (y2-y1)**2)**0.5)
-
+    
+    def slope(self):
+        pass
 
 coordinate1 = (3,2)
 coordinate2 = (8,10)
 
 li = Line(coordinate1,coordinate2)
 li.distance()
+
+print(__author__)

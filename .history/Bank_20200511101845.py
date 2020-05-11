@@ -1,9 +1,4 @@
-from os import system, name 
-def clear(): 
-    if name == 'nt': 
-        _ = system('cls') 
-clear() 
-
+from HeaderFiles import Header1
 class Account:
     
     def __init__(self, owner, balance):
