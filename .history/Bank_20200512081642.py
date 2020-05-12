@@ -31,3 +31,5 @@ print(acc1.balance)
 acc1.deposit(50)
 acc1.withdraw(300)
 print(acc1.balance)
+
+n = input()
