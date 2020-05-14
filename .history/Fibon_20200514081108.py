@@ -1,7 +1,6 @@
 '''
 Fibonacci
 '''
-from HeaderFiles import Header1
 
 def gen_fibon(n):
     '''
