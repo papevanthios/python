@@ -22,4 +22,4 @@ while True:
     except ValueError:
         print("Give me a number please!")
 
-print(list(fibonacci_seq(f)))
+print("-".join(list(fibonacci_seq(f))))

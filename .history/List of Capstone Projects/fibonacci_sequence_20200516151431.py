@@ -21,5 +21,6 @@ while True:
         break
     except ValueError:
         print("Give me a number please!")
-
-print(list(fibonacci_seq(f)))
+s = list(fibonacci_seq(f))
+s = "-".join(s)
+print(s)
