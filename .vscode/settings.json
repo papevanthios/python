@@ -14,5 +14,6 @@
     ],
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.testing.promptToConfigure": false
+    "python.testing.promptToConfigure": false,
+    "python.pythonPath": "C:\\Users\\EVANTHIOS PAPADOPOUL\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe"
 }
